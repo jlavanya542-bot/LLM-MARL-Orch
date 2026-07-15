@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this software repository and the associated article."
+title: "LLM-MARL-Orch"
+type: software
+version: 1.0.0
+authors:
+  - family-names: "J"
+    given-names: "Lavanya"
+  - family-names: "S"
+    given-names: "Kavi Priya"
+repository-code: "Repository URL should be added after publication"
+abstract: "Reproducible simulation for semantic-aware multi-agent container scheduling in hybrid cloud-edge systems."
+keywords:
+  - container scheduling
+  - multi-agent reinforcement learning
+  - cloud-edge orchestration
+  - energy efficiency
+  - semantic scheduling

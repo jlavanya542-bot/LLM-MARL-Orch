@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.log
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+artifacts/*.tmp
+artifacts/*.lock
