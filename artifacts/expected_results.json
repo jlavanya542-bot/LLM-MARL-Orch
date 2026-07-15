@@ -1,0 +1,10 @@
+{
+  "status": "reported_in_manuscript_not_hard_coded_as_reproduced_results",
+  "reported_values": {
+    "sla_violation_rate_pct": 3.2,
+    "energy_wh_per_container": 0.84,
+    "fairness_index": 0.94,
+    "online_scheduling_latency_ms": 6.7
+  },
+  "interpretation_note": "Reproduced values depend on the declared seed, workload generator, model configuration, and hardware. The evaluation scripts compute all relative improvements directly and do not force these target values."
+}

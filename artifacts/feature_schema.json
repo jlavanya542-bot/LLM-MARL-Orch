@@ -1,0 +1,42 @@
+{
+  "nodes.csv": {
+    "node_id": "object",
+    "cluster_id": "object",
+    "cluster_kind": "object",
+    "node_type": "object",
+    "cpu_capacity": "float64",
+    "memory_capacity_gb": "float64",
+    "network_capacity_mbps": "float64",
+    "power_idle_w": "float64",
+    "power_peak_w": "float64",
+    "carbon_intensity_g_per_kwh": "float64",
+    "renewable_ratio": "float64",
+    "reliability": "float64"
+  },
+  "workloads.csv": {
+    "workload_id": "object",
+    "timestamp_s": "float64",
+    "workload_class": "object",
+    "priority": "int64",
+    "cpu_request": "float64",
+    "memory_request_gb": "float64",
+    "network_request_mbps": "float64",
+    "storage_request_gb": "float64",
+    "estimated_duration_s": "float64",
+    "latency_budget_ms": "float64",
+    "energy_sensitivity": "float64",
+    "edge_locality": "float64",
+    "semantic_description": "object",
+    "stress_regime": "object"
+  },
+  "semantic_prompt_corpus.csv": {
+    "prompt_id": "object",
+    "source_workload_id": "object",
+    "prompt": "object",
+    "target_sla": "float64",
+    "target_energy": "float64",
+    "target_imbalance": "float64",
+    "target_fairness": "float64",
+    "target_carbon": "float64"
+  }
+}

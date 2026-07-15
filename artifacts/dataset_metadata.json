@@ -1,0 +1,20 @@
+{
+  "dataset_name": "LLM-MARL-Orch Synthetic Cloud-Edge Scheduling Dataset",
+  "version": "1.0.0",
+  "generator_seed": 42,
+  "node_count": 100,
+  "workload_count": 5000,
+  "prompt_count": 10000,
+  "contains_personal_data": false,
+  "temporal_split": {
+    "train_fraction": 0.7,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.2,
+    "overlap": false
+  },
+  "source_inspiration": [
+    "Public cluster-trace workload patterns",
+    "Cloud-native microservice scheduling constraints",
+    "Synthetic cloud-edge sustainability scenarios"
+  ]
+}
