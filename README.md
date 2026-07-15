@@ -121,6 +121,4 @@ Every scheduler receives the same node topology, workload trace, temporal split,
 
 No credentials are required. Do not commit passwords, API keys, private datasets, or institutional secrets. The `.gitignore` file excludes common credential and environment files.
 
-## Archival release
 
-A GitHub repository can be archived in a DOI-assigning research repository after the final release is tested. The DOI should be added to the manuscript only after the archival service has issued it.
